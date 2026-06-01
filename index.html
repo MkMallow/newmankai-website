@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MkMallow｜萬佳棉花糖</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans HK", sans-serif;
+}
+
+:root {
+  --bg-dark: #121212;
+  --bg-card: #1e1e1e;
+  --pink: #ff7a9c;
+  --blue: #00b4c9;
+  --text-white: #f8fafb;
+  --text-gray: #b0b0b0;
+}
+
+body {
+  background-color: var(--bg-dark);
+  color: var(--text-white);
+  line-height: 1.7;
+}
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* 導航 */
+header {
+  background: rgba(18, 18, 18, 0.95);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.nav-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 0;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--pink);
+}
+
+.logo span {
+  color: var(--blue);
+  font-size: 16px;
+  margin-left: 6px;
+}
+
+nav a {
+  margin-left: 24px;
+  font-weight: 500;
+  color: var(--text-white);
+}
+
+nav a:hover {
+  color: var(--pink);
+}
+
+/* Banner（展覽攤位背景） */
+.banner {
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://i.imgur.com/CsXQJQH.jpg') center/cover no-repeat;
+  padding: 120px 0;
+  text-align: center;
+  position: relative;
+}
+
+.banner .brand-logos {
+  position: absolute;
+  right: 40px;
+  bottom: 20px;
+  display: flex;
+  gap: 16px;
+}
+
+.banner .brand-logos img {
+  height: 60px;
+  border-radius: 8px;
+  background: #fff;
+  padding: 4px;
+}
+
+.banner h1 {
+  font-size: 36px;
+  margin-bottom: 16px;
+}
+
+.banner p {
+  font-size: 18px;
+  margin-bottom: 32px;
+  color: var(--text-gray);
+}
+
+.btn {
+  display: inline-block;
+  background: var(--pink);
+  color: #fff;
+  padding: 12px 28px;
+  border-radius: 30px;
+  font-weight: 600;
+}
+
+.btn:hover {
+  background: #ff6089;
+}
+
+/* 區塊通用 */
+.section {
+  padding: 80px 0;
+}
+
+.section h2 {
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 40px;
+  color: var(--blue);
+}
+
+.bg-dark-card {
+  background: var(--bg-card);
+}
+
+/* 關於我們 */
+.about-text {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  color: var(--text-gray);
+}
+
+/* 產品卡片 */
+.brand-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+}
+
+.brand-card {
+  background: var(--bg-card);
+  padding: 32px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  text-align: center;
+}
+
+.brand-card h3 {
+  color: var(--pink);
+  margin-bottom: 12px;
+}
+
+.brand-card p {
+  color: var(--text-gray);
+  font-size: 15px;
+}
+
+/* 商業合作（背景照） */
+.partner-section {
+  background: linear-gradient(rgba(18,18,18,0.9), rgba(18,18,18,0.9)), url('https://i.imgur.com/3Y5c8tY.jpg') center/cover no-repeat;
+  padding: 80px 0;
+}
+
+.partner-text {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+  color: var(--text-gray);
+}
+
+/* 聯絡我們 */
+.contact-info {
+  text-align: center;
+  color: var(--text-gray);
+}
+
+.contact-info p {
+  margin: 8px 0;
+}
+
+/* 頁腳 */
+footer {
+  background: var(--bg-card);
+  padding: 24px 0;
+  text-align: center;
+  font-size: 14px;
+  color: var(--text-gray);
+  border-top: 1px solid #2c2c2c;
+}
+</style>
+</head>
+<body>
+
+<!-- 導航 -->
+<header>
+  <div class="container nav-wrap">
+    <div class="logo">MkMallow<span>萬佳棉花糖</span></div>
+    <nav>
+      <a href="#home">首頁</a>
+      <a href="#about">關於我們</a>
+      <a href="#products">產品及服務</a>
+      <a href="#partner">商業合作</a>
+      <a href="#contact">聯絡我們</a>
+    </nav>
+  </div>
+</header>
+
+<!-- Banner -->
+<section id="home" class="banner">
+  <div class="container">
+    <h1>香港棉花糖批發專家</h1>
+    <p>Erko 官方授權代理 · Mr.BBQ 港澳註冊品牌 · MkMallow 萬佳棉花糖</p>
+    <a href="#contact" class="btn">WhatsApp 查詢報價</a>
+  </div>
+  <div class="brand-logos">
+    <img src="https://i.imgur.com/9fZJZJz.png" alt="Erko">
+    <img src="https://i.imgur.com/8k7xK9L.png" alt="Mr.BBQ">
+    <img src="https://i.imgur.com/5yYx87Y.png" alt="MkMallow">
+  </div>
+</section>
+
+<!-- 關於我們 -->
+<section id="about" class="section">
+  <div class="container">
+    <h2>關於我們</h2>
+    <div class="about-text">
+      <p><strong>© 新萬佳貿易有限公司 All rights reserved.</strong></p>
+      <p>成立於1989年，扎根香港超過35年，專營棉花糖批發、代理及品牌運營。</p>
+      <p>Erko（伊高）香港官方授權代理；Mr.BBQ（燒烤先生）港澳註冊自有品牌；MkMallow（萬佳棉花糖）銷售品牌。</p>
+      <p>元朗自設倉庫，全港配送，貨源穩定、價格公道。</p>
+    </div>
+  </div>
+</section>
+
+<!-- 產品及服務 -->
+<section id="products" class="section bg-dark-card">
+  <div class="container">
+    <h2>產品及服務</h2>
+    <div class="brand-grid">
+      <div class="brand-card">
+        <h3>Erko 伊高</h3>
+        <p>佛山市高明伊高食品有限公司旗下品牌，香港官方授權銷售，款式齊全、夾心豐富。</p>
+      </div>
+      <div class="brand-card">
+        <h3>Mr.BBQ 燒烤先生</h3>
+        <p>港澳註冊自有品牌，主打不同尺寸白色棉花糖，適合燒烤、派對、烘焙。</p>
+      </div>
+      <div class="brand-card">
+        <h3>MkMallow 萬佳棉花糖</h3>
+        <p>公司銷售品牌，一站式棉花糖批發，小包裝至1kg大包装全覆蓋。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 商業合作 -->
+<section id="partner" class="partner-section">
+  <div class="container">
+    <h2>商業合作</h2>
+    <div class="partner-text">
+      <p>誠邀各界合作夥伴：批發商、零售商、烘焙店、酒店、自助餐、燒烤場、學校、派對公司、電商平台等。</p>
+      <p>提供穩定貨源、靈活價格、專業服務，共贏發展。</p>
+    </div>
+  </div>
+</section>
+
+<!-- 聯絡我們 -->
+<section id="contact" class="section bg-dark-card">
+  <div class="container">
+    <h2>聯絡我們</h2>
+    <div class="contact-info">
+      <p><strong>公司：新萬佳貿易有限公司</strong></p>
+      <p><strong>Tel：+852 2476 0335</strong></p>
+      <p><strong>WhatsApp：+852 6348 9739</strong></p>
+      <p>地址：香港元朗洪水橋</p>
+    </div>
+  </div>
+</section>
+
+<!-- 頁腳 -->
+<footer>
+  <div class="container">
+    <p>© 2025 新萬佳貿易有限公司. All rights reserved.</p>
+  </div>
+</footer>
+
+</body>
+</html>
