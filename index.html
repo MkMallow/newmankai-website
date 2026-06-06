@@ -1,305 +1,312 @@
 <!DOCTYPE html>
-<html lang="zh-Hant">
+<html lang="zh-HK">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>MkMallow｜萬佳棉花糖</title>
-<style>
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Noto Sans HK", sans-serif;
-}
-
-:root {
-  --bg-dark: #121212;
-  --bg-card: #1e1e1e;
-  --pink: #ff7a9c;
-  --blue: #00b4c9;
-  --text-white: #f8fafb;
-  --text-gray: #b0b0b0;
-}
-
-body {
-  background-color: var(--bg-dark);
-  color: var(--text-white);
-  line-height: 1.7;
-}
-
-.container {
-  width: 90%;
-  max-width: 1100px;
-  margin: 0 auto;
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
-/* 導航 */
-header {
-  background: rgba(18, 18, 18, 0.95);
-  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
-  position: sticky;
-  top: 0;
-  z-index: 100;
-}
-
-.nav-wrap {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 12px 0;
-}
-
-.logo {
-  font-size: 22px;
-  font-weight: 700;
-  color: var(--pink);
-}
-
-.logo span {
-  color: var(--blue);
-  font-size: 16px;
-  margin-left: 6px;
-}
-
-nav a {
-  margin-left: 24px;
-  font-weight: 500;
-  color: var(--text-white);
-}
-
-nav a:hover {
-  color: var(--pink);
-}
-
-/* Banner（展覽攤位背景） */
-.banner {
-  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://i.imgur.com/CsXQJQH.jpg') center/cover no-repeat;
-  padding: 120px 0;
-  text-align: center;
-  position: relative;
-}
-
-.banner .brand-logos {
-  position: absolute;
-  right: 40px;
-  bottom: 20px;
-  display: flex;
-  gap: 16px;
-}
-
-.banner .brand-logos img {
-  height: 60px;
-  border-radius: 8px;
-  background: #fff;
-  padding: 4px;
-}
-
-.banner h1 {
-  font-size: 36px;
-  margin-bottom: 16px;
-}
-
-.banner p {
-  font-size: 18px;
-  margin-bottom: 32px;
-  color: var(--text-gray);
-}
-
-.btn {
-  display: inline-block;
-  background: var(--pink);
-  color: #fff;
-  padding: 12px 28px;
-  border-radius: 30px;
-  font-weight: 600;
-}
-
-.btn:hover {
-  background: #ff6089;
-}
-
-/* 區塊通用 */
-.section {
-  padding: 80px 0;
-}
-
-.section h2 {
-  font-size: 28px;
-  text-align: center;
-  margin-bottom: 40px;
-  color: var(--blue);
-}
-
-.bg-dark-card {
-  background: var(--bg-card);
-}
-
-/* 關於我們 */
-.about-text {
-  max-width: 800px;
-  margin: 0 auto;
-  text-align: center;
-  color: var(--text-gray);
-}
-
-/* 產品卡片 */
-.brand-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 24px;
-}
-
-.brand-card {
-  background: var(--bg-card);
-  padding: 32px;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
-  text-align: center;
-}
-
-.brand-card h3 {
-  color: var(--pink);
-  margin-bottom: 12px;
-}
-
-.brand-card p {
-  color: var(--text-gray);
-  font-size: 15px;
-}
-
-/* 商業合作（背景照） */
-.partner-section {
-  background: linear-gradient(rgba(18,18,18,0.9), rgba(18,18,18,0.9)), url('https://i.imgur.com/3Y5c8tY.jpg') center/cover no-repeat;
-  padding: 80px 0;
-}
-
-.partner-text {
-  max-width: 700px;
-  margin: 0 auto;
-  text-align: center;
-  color: var(--text-gray);
-}
-
-/* 聯絡我們 */
-.contact-info {
-  text-align: center;
-  color: var(--text-gray);
-}
-
-.contact-info p {
-  margin: 8px 0;
-}
-
-/* 頁腳 */
-footer {
-  background: var(--bg-card);
-  padding: 24px 0;
-  text-align: center;
-  font-size: 14px;
-  color: var(--text-gray);
-  border-top: 1px solid #2c2c2c;
-}
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>新萬佳貿易有限公司 | New Man Kai Trading Limited</title>
+    <!--SEO標籤-->
+    <meta name="description" content="香港新萬佳貿易，Erko、Mr.BBQ、MkMallow棉花糖港澳總代理，進出口烘焙零食、燒烤專用棉花糖批發">
+    <meta name="keywords" content="新萬佳,Erko棉花糖,Mr.BBQ燒烤棉花糖,MkMallow,香港零食批發,港澳進出口貿易">
+    <style>
+        :root {
+            --bg-main:#121212;
+            --bg-card:#1e1e1e;
+            --pink:#ff7a9c;
+            --blue:#00b4c9;
+            --text-white:#f8fafb;
+            --text-gray:#b0b0b0;
+        }
+        * {
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:"Noto Sans HK",sans-serif;
+        }
+        body {
+            background:var(--bg-main);
+            color:var(--text-white);
+            line-height:1.7;
+        }
+        /*導航欄*/
+        header {
+            background:#0c0c0c;
+            padding:15px 5%;
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+            position:sticky;
+            top:0;
+            z-index:99;
+            box-shadow:0 2px 10px #00000050;
+        }
+        .logo {
+            font-size:22px;
+            font-weight:bold;
+            color:var(--pink);
+        }
+        .logo span{
+            color:var(--blue);
+            font-size:15px;
+        }
+        nav a {
+            color:var(--text-gray);
+            text-decoration:none;
+            margin:0 14px;
+            transition:0.3s;
+        }
+        nav a:hover {
+            color:var(--pink);
+        }
+        /*首屏Banner*/
+        .banner {
+            width:100%;
+            min-height:85vh;
+            background:linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)),url('./newmankai_images/Hofex2025.jpeg') center/cover no-repeat;
+            display:flex;
+            flex-direction:column;
+            justify-content:center;
+            padding:0 5%;
+        }
+        .banner h1 {
+            font-size:42px;
+            margin-bottom:12px;
+            color:#fff;
+        }
+        .banner p {
+            font-size:18px;
+            max-width:650px;
+            color:var(--text-gray);
+        }
+        .btn {
+            display:inline-block;
+            margin-top:25px;
+            padding:12px 30px;
+            background:var(--pink);
+            color:#fff;
+            text-decoration:none;
+            border-radius:30px;
+            font-weight:500;
+            width:fit-content;
+            transition:0.3s;
+        }
+        .btn:hover{
+            background:#ff6089;
+        }
+        /*通用區塊樣式*/
+        .section {
+            padding:80px 5%;
+        }
+        .sec-title {
+            text-align:center;
+            font-size:30px;
+            margin-bottom:50px;
+            color:var(--blue);
+        }
+        /*品牌介紹區塊*/
+        .brand-wrap {
+            display:grid;
+            grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+            gap:35px;
+        }
+        .brand-card {
+            background:var(--bg-card);
+            padding:30px;
+            border-radius:12px;
+            text-align:center;
+            box-shadow:0 4px 12px #00000040;
+        }
+        .brand-card img {
+            height:120px;
+            object-fit:contain;
+            margin-bottom:20px;
+            background:#fff;
+            padding:6px;
+            border-radius:8px;
+        }
+        .brand-card h3 {
+            margin-bottom:10px;
+            color:var(--pink);
+        }
+        .brand-card p {
+            color:var(--text-gray);
+            font-size:15px;
+        }
+        /*新增：產品樣品區*/
+        .product-wrap{
+            display:grid;
+            grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+            gap:28px;
+        }
+        .product-card{
+            background:var(--bg-card);
+            border-radius:10px;
+            overflow:hidden;
+        }
+        .product-card img{
+            width:100%;
+            height:200px;
+            object-fit:cover;
+        }
+        .product-text{
+            padding:16px;
+        }
+        .product-text h4{
+            color:var(--pink);
+            margin-bottom:6px;
+        }
+        .product-text p{
+            color:var(--text-gray);
+            font-size:14px;
+        }
+        /*合作夥伴區*/
+        .partner-section {
+            background:linear-gradient(rgba(18,18,18,0.92),rgba(18,18,18,0.92)),url('./newmankai_images/Whatsapp business cover photo.png') center/cover no-repeat fixed;
+        }
+        .partner-text {
+            max-width:700px;
+            margin:0 auto;
+            text-align:center;
+        }
+        .partner-text p {
+            color:var(--text-gray);
+            font-size:17px;
+        }
+        /*關於我們*/
+        .about-content {
+            max-width:1000px;
+            margin:0 auto;
+            color:var(--text-gray);
+            font-size:16px;
+            text-align:center;
+        }
+        /*頁尾聯絡*/
+        footer {
+            background:#080808;
+            padding:40px 5%;
+            text-align:center;
+            color:var(--text-gray);
+            border-top:1px solid #2c2c2c;
+        }
+        footer h4 {
+            color:var(--blue);
+            margin-bottom:15px;
+            font-size:20px;
+        }
+        /*手機響應式*/
+        @media(max-width:768px){
+            nav {display:none;}
+            .banner h1 {font-size:30px;}
+            .section{padding:50px 5%;}
+        }
+    </style>
 </head>
 <body>
-
-<!-- 導航 -->
+<!--頂部導航-->
 <header>
-  <div class="container nav-wrap">
     <div class="logo">MkMallow<span>萬佳棉花糖</span></div>
     <nav>
-      <a href="#home">首頁</a>
-      <a href="#about">關於我們</a>
-      <a href="#products">產品及服務</a>
-      <a href="#partner">商業合作</a>
-      <a href="#contact">聯絡我們</a>
+        <a href="#home">首頁</a>
+        <a href="#brand">代理品牌</a>
+        <a href="#product">產品系列</a>
+        <a href="#partner">商業合作</a>
+        <a href="#about">關於我們</a>
+        <a href="#contact">聯絡我們</a>
     </nav>
-  </div>
 </header>
 
-<!-- Banner -->
-<section id="home" class="banner">
-  <div class="container">
+<!--首屏Banner-->
+<section class="banner" id="home">
     <h1>香港棉花糖批發專家</h1>
-    <p>Erko 官方授權代理 · Mr.BBQ 港澳註冊品牌 · MkMallow 萬佳棉花糖</p>
+    <p>Erko 官方授權代理 · Mr.BBQ 港澳註冊品牌 · MkMallow 萬佳棉花糖<br>元朗自設倉庫，全港配送，供應烘焙、燒烤、商超全渠道</p>
     <a href="#contact" class="btn">WhatsApp 查詢報價</a>
-  </div>
-  <div class="brand-logos">
-    <img src="https://i.imgur.com/9fZJZJz.png" alt="Erko">
-    <img src="https://i.imgur.com/8k7xK9L.png" alt="Mr.BBQ">
-    <img src="https://i.imgur.com/5yYx87Y.png" alt="MkMallow">
-  </div>
 </section>
 
-<!-- 關於我們 -->
-<section id="about" class="section">
-  <div class="container">
-    <h2>關於我們</h2>
-    <div class="about-text">
-      <p><strong>© 新萬佳貿易有限公司 All rights reserved.</strong></p>
-      <p>成立於1989年，扎根香港超過35年，專營棉花糖批發、代理及品牌運營。</p>
-      <p>Erko（伊高）香港官方授權代理；Mr.BBQ（燒烤先生）港澳註冊自有品牌；MkMallow（萬佳棉花糖）銷售品牌。</p>
-      <p>元朗自設倉庫，全港配送，貨源穩定、價格公道。</p>
+<!--三大代理品牌-->
+<section class="section" id="brand">
+    <h2 class="sec-title">代理三大品牌</h2>
+    <div class="brand-wrap">
+        <div class="brand-card">
+            <img src="./newmankai_images/SODAmall booth.jpeg" alt="Erko">
+            <h3>Erko 伊高</h3>
+            <p>佛山伊高食品旗下品牌，香港官方授權總經銷，夾心、造型棉花糖款式齊全。</p>
+        </div>
+        <div class="brand-card">
+            <img src="./newmankai_images/Mr.BBQ logo.jpg" alt="Mr.BBQ">
+            <h3>Mr.BBQ 燒烤先生</h3>
+            <p>港澳自有註冊品牌，專供燒烤用特大粒白棉花糖，適合餐廳、燒烤場。</p>
+        </div>
+        <div class="brand-card">
+            <img src="./newmankai_images/Twist mellow 1.jpg" alt="MkMallow">
+            <h3>MkMallow 萬佳</h3>
+            <p>集團自營銷售品牌，一站式批發，小包裝至1kg工業大包全品項覆蓋。</p>
+        </div>
     </div>
-  </div>
 </section>
 
-<!-- 產品及服務 -->
-<section id="products" class="section bg-dark-card">
-  <div class="container">
-    <h2>產品及服務</h2>
-    <div class="brand-grid">
-      <div class="brand-card">
-        <h3>Erko 伊高</h3>
-        <p>佛山市高明伊高食品有限公司旗下品牌，香港官方授權銷售，款式齊全、夾心豐富。</p>
-      </div>
-      <div class="brand-card">
-        <h3>Mr.BBQ 燒烤先生</h3>
-        <p>港澳註冊自有品牌，主打不同尺寸白色棉花糖，適合燒烤、派對、烘焙。</p>
-      </div>
-      <div class="brand-card">
-        <h3>MkMallow 萬佳棉花糖</h3>
-        <p>公司銷售品牌，一站式棉花糖批發，小包裝至1kg大包装全覆蓋。</p>
-      </div>
+<!--【新增產品展示區】-->
+<section class="section bg-dark-card" id="product" style="background:#181818;">
+    <h2 class="sec-title">主力產品系列</h2>
+    <div class="product-wrap">
+        <div class="product-card">
+            <img src="./newmankai_images/Twist mellow 1.jpg" alt="扭紋棉花糖">
+            <div class="product-text">
+                <h4>扭紋造型棉花糖</h4>
+                <p>烘焙專用原料，多款顏色，餅房、甜品店常用</p>
+            </div>
+        </div>
+        <div class="product-card">
+            <img src="./newmankai_images/Mr.BBQ logo.jpg" alt="燒烤棉花糖">
+            <div class="product-text">
+                <h4>BBQ特大棉花糖</h4>
+                <p>燒烤專用大粒白色，露營、自助餐熱銷款</p>
+            </div>
+        </div>
+        <div class="product-card">
+            <img src="./newmankai_images/SODAmall booth.jpeg" alt="夾心棉花糖">
+            <div class="product-text">
+                <h4>水果夾心棉花糖</h4>
+                <p>多種果味內餡，商超、便利店零售爆款</p>
+            </div>
+        </div>
     </div>
-  </div>
 </section>
 
-<!-- 商業合作 -->
-<section id="partner" class="partner-section">
-  <div class="container">
-    <h2>商業合作</h2>
+<!--合作夥伴區-->
+<section class="section partner-section" id="partner">
+    <h2 class="sec-title">商業合作</h2>
     <div class="partner-text">
-      <p>誠邀各界合作夥伴：批發商、零售商、烘焙店、酒店、自助餐、燒烤場、學校、派對公司、電商平台等。</p>
-      <p>提供穩定貨源、靈活價格、專業服務，共贏發展。</p>
+        <p>誠邀批發商、烘焙連鎖、酒店自助餐、燒烤場、學校團購、電商平台合作。<br>穩定現貨庫存、靈活議價、一站式倉儲配送，面向港澳及內地全渠道招商。</p>
     </div>
-  </div>
 </section>
 
-<!-- 聯絡我們 -->
-<section id="contact" class="section bg-dark-card">
-  <div class="container">
-    <h2>聯絡我們</h2>
-    <div class="contact-info">
-      <p><strong>公司：新萬佳貿易有限公司</strong></p>
-      <p><strong>Tel：+852 2476 0335</strong></p>
-      <p><strong>WhatsApp：+852 6348 9739</strong></p>
-      <p>地址：香港元朗洪水橋</p>
+<!--關於公司-->
+<section class="section" id="about">
+    <h2 class="sec-title">關於我們</h2>
+    <div class="about-content">
+        <p>新萬佳貿易有限公司1989年於香港成立，深耕糖果進出口35年以上。<br>
+        取得Erko香港獨家代理權，自主持有Mr.BBQ港澳商標、MkMallow銷售品牌。<br>
+        元朗自有倉庫，常年參加HOFEX香港國際食品展，貨源穩定，面向全港澳及珠三角批發。</p>
     </div>
-  </div>
 </section>
 
-<!-- 頁腳 -->
-<footer>
-  <div class="container">
-    <p>© 2025 新萬佳貿易有限公司. All rights reserved.</p>
-  </div>
+<!--頁尾聯絡-->
+<footer id="contact">
+    <h4>聯絡資訊</h4>
+    <p>公司：新萬佳貿易有限公司</p>
+    <p>電話：+852 2476 0335｜WhatsApp：+852 6348 9739</p>
+    <p>地址：香港元朗洪水橋</p>
+    <p style="margin-top:15px;">©2025 新萬佳貿易有限公司 All Rights Reserved</p>
 </footer>
 
+<script>
+//平滑滾動
+document.querySelectorAll('a[href^="#"]').forEach(item=>{
+    item.addEventListener('click',function(e){
+        e.preventDefault();
+        const target=document.querySelector(this.getAttribute('href'));
+        target.scrollIntoView({behavior:'smooth'});
+    })
+})
+</script>
 </body>
 </html>
