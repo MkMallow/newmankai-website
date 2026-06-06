@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>新萬佳貿易有限公司 | New Man Kai Trading Company Limited</title>
-    <!--SEO標籤-->
     <meta name="description" content="新萬佳貿易有限公司，Erko、Mr.BBQ、MkMallow棉花糖港澳代理，燒烤及烘焙專用棉花糖批發">
     <meta name="keywords" content="新萬佳,New Man Kai, marshmallows,Erko棉花糖,Mr.BBQ燒烤棉花糖,MkMallow,香港零食批發,港澳進出口貿易">
     <style>
@@ -27,7 +26,6 @@
             color:var(--text-white);
             line-height:1.7;
         }
-        /*導航欄*/
         header {
             background:#0c0c0c;
             padding:15px 5%;
@@ -57,11 +55,12 @@
         nav a:hover {
             color:var(--pink);
         }
-        /*首屏Banner*/
+
+        /* 這裡已經正確設定 Hofex2025 背景圖 */
         .banner {
-            min-height:85vh; /* 區塊高度，vh=螢幕百分比 */
-            background:linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)),
-            url('./newmankai_images/Hofex2025.jpeg') center / cover no-repeat;
+            min-height:85vh;
+            background: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), 
+                        url('./newmankai_images/Hofex2025.jpeg') center/cover no-repeat;
             display:flex;
             flex-direction:column;
             justify-content:center;
@@ -92,7 +91,6 @@
         .btn:hover{
             background:#ff6089;
         }
-        /*通用區塊樣式*/
         .section {
             padding:80px 5%;
         }
@@ -102,7 +100,6 @@
             margin-bottom:50px;
             color:var(--blue);
         }
-        /*品牌介紹區塊*/
         .brand-wrap {
             display:grid;
             grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
@@ -131,7 +128,6 @@
             color:var(--text-gray);
             font-size:15px;
         }
-        /*新增：產品樣品區*/
         .product-wrap{
             display:grid;
             grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
@@ -158,9 +154,9 @@
             color:var(--text-gray);
             font-size:14px;
         }
-        /*合作夥伴區*/
         .partner-section {
-            background:linear-gradient(rgba(18,18,18,0.92),rgba(18,18,18,0.92)),url('./newmankai_images/Whatsapp business cover photo.png') center/cover no-repeat fixed;
+            background:linear-gradient(rgba(18,18,18,0.92),rgba(18,18,18,0.92)),
+                        url('./newmankai_images/Whatsapp business cover photo.png') center/cover no-repeat fixed;
         }
         .partner-text {
             max-width:700px;
@@ -171,7 +167,6 @@
             color:var(--text-gray);
             font-size:17px;
         }
-        /*關於我們*/
         .about-content {
             max-width:1000px;
             margin:0 auto;
@@ -179,7 +174,6 @@
             font-size:16px;
             text-align:center;
         }
-        /*頁尾聯絡*/
         footer {
             background:#080808;
             padding:40px 5%;
@@ -192,7 +186,6 @@
             margin-bottom:15px;
             font-size:20px;
         }
-        /*手機響應式*/
         @media(max-width:768px){
             nav {display:none;}
             .banner h1 {font-size:30px;}
@@ -201,7 +194,7 @@
     </style>
 </head>
 <body>
-<!--頂部導航-->
+
 <header>
     <div class="logo">MkMallow<span>萬佳棉花糖</span></div>
     <nav>
@@ -214,14 +207,12 @@
     </nav>
 </header>
 
-<!--首屏Banner-->
 <section class="banner" id="home">
     <h1>香港棉花糖批發專家</h1>
     <p>Erko 官方授權代理 · Mr.BBQ 港澳註冊品牌 · MkMallow 萬佳棉花糖<br>元朗自設倉庫，全港配送，供應烘焙、燒烤、商超全渠道</p>
     <a href="https://wa.me/85263489739" target="_blank" class="btn">WhatsApp 查詢報價</a>
 </section>
 
-<!--三大代理品牌-->
 <section class="section" id="brand">
     <h2 class="sec-title">代理三大品牌</h2>
     <div class="brand-wrap">
@@ -233,7 +224,7 @@
         <div class="brand-card">
             <img src="./newmankai_images/Mr.BBQ logo.jpg" alt="Mr.BBQ">
             <h3>Mr.BBQ 燒烤先生</h3>
-            <p>港澳自有註冊品牌，供應燒烤及烘焙專用白棉花糖，適合餐廳、燒烤場、燒肉店、烘焙店及冰凍甜點等形容應用。</p>
+            <p>港澳自有註冊品牌，供應燒烤及烘焙專用白棉花糖，適合餐廳、燒烤場、燒肉店、烘焙店及冰凍甜點等應用。</p>
         </div>
         <div class="brand-card">
             <img src="./newmankai_images/Twist mellow 1.jpg" alt="MkMallow">
@@ -243,7 +234,6 @@
     </div>
 </section>
 
-<!--【新增產品展示區】-->
 <section class="section bg-dark-card" id="product" style="background:#181818;">
     <h2 class="sec-title">主力產品系列</h2>
     <div class="product-wrap">
@@ -264,7 +254,6 @@
     </div>
 </section>
 
-<!--合作夥伴區-->
 <section class="section partner-section" id="partner">
     <h2 class="sec-title">商業合作</h2>
     <div class="partner-text">
@@ -272,7 +261,6 @@
     </div>
 </section>
 
-<!--關於公司-->
 <section class="section" id="about">
     <h2 class="sec-title">關於我們</h2>
     <div class="about-content">
@@ -282,7 +270,6 @@
     </div>
 </section>
 
-<!--頁尾聯絡-->
 <footer id="contact">
     <h4>聯絡資訊</h4>
     <p>公司：新萬佳貿易有限公司</p>
@@ -292,7 +279,6 @@
 </footer>
 
 <script>
-//平滑滾動
 document.querySelectorAll('a[href^="#"]').forEach(item=>{
     item.addEventListener('click',function(e){
         e.preventDefault();
